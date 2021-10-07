@@ -22,7 +22,7 @@ EXPOSE 8888
 
 WORKDIR /workspace
 
-CMD ["jupyter", "lab", "--port=8888", "--no-browser", "--ip=0.0.0.0", "--allow-root"]]
+CMD ["jupyter", "lab", "--port=8888", "--no-browser", "--ip=0.0.0.0"]
 
 # If you want to save files back to the local filesystem use this instead
 #USER root
